@@ -1,7 +1,7 @@
 # LearnQ 🎓📚
 
 💡 **Introducing LEARNQ!**
-We built a **MERN-stack** web app that transforms YouTube playlists into **AI-generated quizzes** using video transcripts (not just metadata!). To make learning more engaging, we introduced an **in-game token system**, rewarding players for correct answers and accuracy. 🏆
+LearnQ is a **MERN-stack** web app that transforms YouTube playlists into **AI-generated quizzes** using video transcripts (not just metadata!). To make learning more engaging, we introduced an **in-game token system**, rewarding players for correct answers and accuracy. 🏆
 
 ## 🌟 Features
 
@@ -14,11 +14,6 @@ We built a **MERN-stack** web app that transforms YouTube playlists into **AI-ge
 - Generates **context-aware, intelligent quiz questions** that enhance retention.
 - Adapts question difficulty based on user performance.
 
-### 🏆 Gamified Reward System
-- Players earn **tokens, points & badges** for answering correctly.
-- Accuracy-based **score multipliers** encourage consistent performance.
-- In-game rewards enhance motivation & user engagement.
-
 ### 📊 Progress Tracking & Insights
 - Monitors past quiz performance & tracks improvement over time.
 - Provides **detailed analytics** on strengths and areas for growth.
@@ -26,6 +21,9 @@ We built a **MERN-stack** web app that transforms YouTube playlists into **AI-ge
 ### 🔐 Secure Authentication
 - Users can **sign up & log in** securely.
 - Personalized quiz history & saved progress for each user.
+- **Database integration ensures user data is stored securely** and retained across sessions.
+- Users do not lose their progress or tokens when they log out.
+
 
 ### 📱 Responsive & Intuitive UI
 - Optimized for **desktop & mobile** users.
@@ -59,7 +57,7 @@ cd learnq
 
 ### 📦 Install Dependencies
 ```sh
-npm install  # or yarn install
+npm install
 ```
 
 ### 🛠️ Setup Environment Variables
@@ -72,7 +70,7 @@ REACT_APP_GEMINI_API_KEY=your_api_key_here
 
 ### ▶️ Run the Application
 ```sh
-npm start  # or yarn start
+npm start
 ```
 The app will be available at `http://localhost:3000`
 
@@ -106,6 +104,6 @@ This project is licensed under the **MIT License**.
 ## 🔗 Useful Links
 - 🎮 Live Demo: [LearnQ](https://jhaszoz6klvqxvap.vercel.app/)
 - 📂 GitHub Repo: [LearnQ Repository](https://github.com/saadsaleem17/learnq)
-- 💬 Contact: Reach out via LinkedIn or GitHub Issues!
+- 💬 Contact: Reach out via [LinkedIn](https://www.linkedin.com/in/saad-salim-24b251228/) or GitHub Issues!
 
 🚀 **Happy Learning with LearnQ!** 🎓
