@@ -105,4 +105,4 @@ module.exports = {
   },
   plugins: [require("tailwindcss-animate")],
 }
-
+// tailwind isn't helping get better code language
